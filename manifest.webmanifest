@@ -1,0 +1,16 @@
+{
+  "name": "Conecta Jacareí",
+  "short_name": "Conecta",
+  "description": "Serviços, oportunidades e informações de Jacareí.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#8B1E2D",
+  "icons": [
+    {
+      "src": "assets/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

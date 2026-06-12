@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#8B1E2D">
+  <meta name="description" content="Encontre serviços, profissionais, empregos, imóveis, empresas e informações de Jacareí em um só lugar.">
+  <meta name="keywords" content="Jacareí, serviços, empregos, imóveis, empresas, comércio local, ônibus">
+  <meta name="author" content="Conecta Jacareí">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Conecta Jacareí | A cidade mais perto de você">
+  <meta property="og:description" content="Serviços, oportunidades e informações de Jacareí em um único portal.">
+  <meta property="og:image" content="assets/images/hero-conecta-cidade.png">
+  <meta property="og:url" content="https://conectajacarei.com.br/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://conectajacarei.com.br/">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Conecta Jacareí | Serviços e oportunidades da cidade</title>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="site-header" id="inicio">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Conecta Jacareí - início">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32"><path d="M16 3a13 13 0 1 0 13 13A13 13 0 0 0 16 3Zm6.1 14.4h-4.7v4.7h-2.8v-4.7H9.9v-2.8h4.7V9.9h2.8v4.7h4.7Z"/></svg>
+        </span>
+        <span>Conecta <strong>Jacareí</strong></span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a class="active" href="#inicio">Início</a>
+        <a href="#acesso-rapido">Serviços</a>
+        <a href="#categorias">Categorias</a>
+        <a href="#destaques">Destaques</a>
+        <a href="#sobre">Sobre</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="location-button" type="button" aria-label="Localização atual: Jacareí">
+          <svg class="icon"><use href="#icon-pin"/></svg>
+          <span>Jacareí, SP</span>
+        </button>
+        <button class="outline-button desktop-only" type="button" data-toast="O acesso para anunciantes estará disponível em breve.">Entrar</button>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <nav class="mobile-nav" id="mobile-menu" aria-label="Navegação mobile" hidden>
+      <a href="#inicio">Início</a>
+      <a href="#acesso-rapido">Serviços</a>
+      <a href="#categorias">Categorias</a>
+      <a href="#destaques">Destaques</a>
+      <a href="#sobre">Sobre</a>
+      <button type="button" data-toast="O acesso para anunciantes estará disponível em breve.">Entrar</button>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow"><span></span> Tudo que você precisa, perto de você</span>
+          <h1>Conectando você aos melhores <em>serviços e oportunidades</em> da cidade.</h1>
+          <p>Encontre profissionais, empresas, empregos, imóveis e muito mais em um único lugar.</p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#categorias">
+              Explorar categorias
+              <svg class="icon"><use href="#icon-arrow"/></svg>
+            </a>
+            <button class="secondary-button" type="button" data-focus-search>
+              <svg class="icon"><use href="#icon-search"/></svg>
+              Buscar serviços
+            </button>
+          </div>
+          <div class="trust-row" aria-label="Benefícios do portal">
+            <span><svg class="icon"><use href="#icon-check"/></svg> Feito para Jacareí</span>
+            <span><svg class="icon"><use href="#icon-check"/></svg> Fácil e gratuito</span>
+            <span><svg class="icon"><use href="#icon-check"/></svg> Conexão direta</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-wrap">
+            <img src="assets/images/hero-conecta-cidade.png" alt="Ilustração de moradores conectados aos serviços da cidade" width="1536" height="1024" fetchpriority="high">
+          </div>
+          <div class="floating-card floating-card-rating">
+            <span class="floating-icon"><svg class="icon"><use href="#icon-star"/></svg></span>
+            <span><strong>Bem avaliados</strong><small>Profissionais locais</small></span>
+          </div>
+          <div class="floating-card floating-card-local">
+            <span class="floating-icon"><svg class="icon"><use href="#icon-store"/></svg></span>
+            <span><strong>Comércio local</strong><small>Fortaleça a cidade</small></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="search-panel-section" aria-label="Busca global">
+      <div class="container">
+        <form class="global-search" id="global-search" role="search">
+          <div class="search-copy">
+            <span class="search-symbol"><svg class="icon"><use href="#icon-search"/></svg></span>
+            <div>
+              <strong>O que você está procurando?</strong>
+              <span>Busque por serviços, empresas, vagas, imóveis...</span>
+            </div>
+          </div>
+          <label class="search-field">
+            <span class="sr-only">Digite sua busca</span>
+            <svg class="icon"><use href="#icon-search"/></svg>
+            <input id="search-input" type="search" autocomplete="off" placeholder="Ex.: eletricista, emprego, apartamento...">
+          </label>
+          <label class="search-select">
+            <span class="sr-only">Categoria</span>
+            <select id="search-type" aria-label="Filtrar tipo de busca">
+              <option value="todos">Todas as categorias</option>
+              <option value="servicos">Serviços</option>
+              <option value="empresas">Empresas</option>
+              <option value="empregos">Empregos</option>
+              <option value="imoveis">Imóveis</option>
+              <option value="eventos">Eventos</option>
+            </select>
+            <svg class="icon"><use href="#icon-chevron"/></svg>
+          </label>
+          <button class="search-submit" type="submit">Buscar</button>
+          <div class="search-results" id="search-results" aria-live="polite" hidden></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section quick-access" id="acesso-rapido">
+      <div class="container">
+        <div class="section-heading centered">
+          <span class="section-kicker">ACESSO RÁPIDO</span>
+          <h2>Encontre o que precisa</h2>
+          <p>Os principais serviços e informações da cidade em poucos cliques.</p>
+        </div>
+        <div class="quick-grid" id="quick-grid"></div>
+      </div>
+    </section>
+
+    <section class="section service-categories" id="categorias">
+      <div class="container">
+        <div class="section-heading heading-row">
+          <div>
+            <span class="section-kicker">SERVIÇOS</span>
+            <h2>Categorias de serviços</h2>
+            <p>Encontre profissionais para todos os momentos.</p>
+          </div>
+          <button class="text-button" type="button" id="toggle-categories">
+            Ver todas as categorias
+            <svg class="icon"><use href="#icon-arrow"/></svg>
+          </button>
+        </div>
+        <div class="category-grid" id="category-grid"></div>
+      </div>
+    </section>
+
+    <section class="section city-highlights" id="destaques">
+      <div class="container">
+        <div class="section-heading heading-row">
+          <div>
+            <span class="section-kicker">EM DESTAQUE</span>
+            <h2>O melhor da cidade</h2>
+            <p>Descubra negócios, oportunidades e novidades perto de você.</p>
+          </div>
+          <button class="text-button" type="button" data-toast="Novos destaques serão publicados em breve.">
+            Ver todos os destaques
+            <svg class="icon"><use href="#icon-arrow"/></svg>
+          </button>
+        </div>
+        <div class="highlight-grid" id="highlight-grid"></div>
+      </div>
+    </section>
+
+    <section class="section how-it-works">
+      <div class="container">
+        <div class="section-heading centered">
+          <span class="section-kicker">SIMPLES E RÁPIDO</span>
+          <h2>Como funciona</h2>
+          <p>Encontre o que precisa em apenas três passos.</p>
+        </div>
+        <div class="steps-grid">
+          <article class="step-card">
+            <span class="step-icon"><svg class="icon"><use href="#icon-grid"/></svg></span>
+            <span class="step-number">1</span>
+            <h3>Escolha uma categoria</h3>
+            <p>Navegue pelas categorias disponíveis e encontre a área que precisa.</p>
+          </article>
+          <article class="step-card">
+            <span class="step-icon"><svg class="icon"><use href="#icon-search"/></svg></span>
+            <span class="step-number">2</span>
+            <h3>Encontre o que procura</h3>
+            <p>Localize empresas, profissionais ou serviços próximos a você.</p>
+          </article>
+          <article class="step-card">
+            <span class="step-icon"><svg class="icon"><use href="#icon-chat"/></svg></span>
+            <span class="step-number">3</span>
+            <h3>Entre em contato</h3>
+            <p>Converse diretamente com o anunciante de forma simples e rápida.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="sobre">
+      <div class="container cta-card">
+        <div class="cta-copy">
+          <span class="section-kicker light">FAÇA PARTE</span>
+          <h2>Seu negócio também pode estar aqui.</h2>
+          <p>Conecte sua empresa a milhares de moradores de Jacareí e fortaleça o comércio local.</p>
+        </div>
+        <div class="cta-actions">
+          <button class="white-button" type="button" data-toast="O cadastro de empresas será liberado em breve.">
+            Cadastrar minha empresa
+            <svg class="icon"><use href="#icon-arrow"/></svg>
+          </button>
+          <span><svg class="icon"><use href="#icon-check"/></svg> Cadastro gratuito na fase inicial</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <a class="brand footer-brand" href="#inicio">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32"><path d="M16 3a13 13 0 1 0 13 13A13 13 0 0 0 16 3Zm6.1 14.4h-4.7v4.7h-2.8v-4.7H9.9v-2.8h4.7V9.9h2.8v4.7h4.7Z"/></svg>
+          </span>
+          <span>Conecta <strong>Jacareí</strong></span>
+        </a>
+        <p>Conectando pessoas, negócios e oportunidades para fazer Jacareí crescer ainda mais.</p>
+        <div class="social-links" aria-label="Redes sociais">
+          <a href="#" aria-label="Instagram"><svg class="icon"><use href="#icon-instagram"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg class="icon"><use href="#icon-facebook"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg class="icon"><use href="#icon-linkedin"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h2>Portal</h2>
+        <a href="#sobre">Sobre o portal</a>
+        <a href="#categorias">Categorias</a>
+        <a href="#destaques">Destaques</a>
+        <a href="#" data-toast="A central de ajuda estará disponível em breve.">Central de ajuda</a>
+      </div>
+      <div class="footer-column">
+        <h2>Para você</h2>
+        <a href="#acesso-rapido">Encontrar serviços</a>
+        <a href="#" data-toast="O cadastro de empresas será liberado em breve.">Cadastrar empresa</a>
+        <a href="#" data-toast="A publicação de vagas será liberada em breve.">Publicar uma vaga</a>
+        <a href="#" data-toast="A área de eventos será liberada em breve.">Divulgar evento</a>
+      </div>
+      <div class="footer-column">
+        <h2>Contato</h2>
+        <a href="mailto:contato@conectajacarei.com.br"><svg class="icon"><use href="#icon-mail"/></svg> contato@conectajacarei.com.br</a>
+        <span><svg class="icon"><use href="#icon-pin"/></svg> Jacareí, São Paulo</span>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="current-year"></span> Conecta Jacareí. Todos os direitos reservados.</span>
+      <div><a href="#">Política de Privacidade</a><a href="#">Termos de Uso</a></div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <svg class="svg-sprite" aria-hidden="true">
+    <symbol id="icon-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></symbol>
+    <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="icon-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="icon-pin" viewBox="0 0 24 24"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="icon-chevron" viewBox="0 0 24 24"><path d="m8 10 4 4 4-4"/></symbol>
+    <symbol id="icon-star" viewBox="0 0 24 24"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z"/></symbol>
+    <symbol id="icon-store" viewBox="0 0 24 24"><path d="M4 10v10h16V10M3 10l2-6h14l2 6"/><path d="M3 10a3 3 0 0 0 6 0 3 3 0 0 0 6 0 3 3 0 0 0 6 0M9 20v-6h6v6"/></symbol>
+    <symbol id="icon-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></symbol>
+    <symbol id="icon-chat" viewBox="0 0 24 24"><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4Z"/><path d="M8 9h8M8 13h5"/></symbol>
+    <symbol id="icon-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></symbol>
+    <symbol id="icon-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></symbol>
+    <symbol id="icon-facebook" viewBox="0 0 24 24"><path d="M14 21v-8h3l.5-4H14V7c0-1.2.5-2 2-2h2V2.2c-.7-.1-1.7-.2-3-.2-3 0-5 1.8-5 5v2H7v4h3v8Z"/></symbol>
+    <symbol id="icon-linkedin" viewBox="0 0 24 24"><rect x="3" y="9" width="4" height="12"/><circle cx="5" cy="5" r="2"/><path d="M11 21V9h4v2c1-1.5 2.4-2.5 4.2-2.3 2.8.2 2.8 3.2 2.8 5.3v7h-4v-6c0-1.5-.3-3-2-3s-2 1.5-2 3v6Z"/></symbol>
+  </svg>
+
+  <script src="src/data/portal-data.js"></script>
+  <script src="src/icons.js"></script>
+  <script src="src/services/search.js"></script>
+  <script src="src/services/firebase.js"></script>
+  <script src="src/app.js"></script>
+</body>
+</html>
